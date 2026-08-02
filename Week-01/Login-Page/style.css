@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.login-container {
+
+    display: flex;
+    min-height: 100vh;
+
+}
+
+
+
+/* Left Section */
+
+.login-image {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+
+}
+
+
+.login-image img {
+
+    width: 80%;
+    height: auto;
+
+}
+
+
+
+/* Right Section */
+
+.login-section {
+
+    width: 50%;
+
+    background-color: #336cf1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* Form Card */
+
+.login-form {
+
+    background-color: white;
+
+    width: 350px;
+
+    padding: 50px;
+
+    border-radius: 20px;
+
+}
+
+
+.login-form h4 {
+
+    font-size: 32px;
+    margin-bottom: 10px;
+
+}
+
+
+.login-form p {
+
+    color: #777;
+    margin-bottom: 30px;
+
+}
+
+
+
+/* Inputs */
+
+.login-form input {
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+}
+
+
+.login-form input:focus {
+
+    outline: none;
+
+    border-color: #1976D2;
+
+}
+
+
+
+/* Button */
+
+.login-form button {
+
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: #1976D2;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+.login-form button:hover {
+
+    background-color: #125EA8;
+
+}
+
+
+
+/* Link */
+
+.login-form a {
+
+    display: block;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #1976D2;
+
+    font-size: 14px;
+
+}
