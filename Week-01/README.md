@@ -17,9 +17,13 @@ Responsive Login Page
 - index.html
 - style.css
 
+## Screenshot
+![Login Page Screenshot](Screenshots/LoginPageScreen.png)
+
 ## What I Learned
 - HTML page structure
 - CSS selectors
 - Flexbox
 - Form elements
 - Responsive layouts
+  
